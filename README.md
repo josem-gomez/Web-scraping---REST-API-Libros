@@ -14,5 +14,7 @@ La actividad ha sido realizada de manera individual por Jose Manuel Gómez Lópe
 
 ## Recursos
 
-1. Lawson, R. (2015). _Web Scraping with Python_. Packt Publishing Ltd. Chapter 2. Scraping the Data.
-2. Mitchel, R. (2015). _Web Scraping with Python: Collecting Data from the Modern Web_. O'Reilly Media, Inc. Chapter 1. Your First Web Scraper.
+1. Subirats, L., Calvo, M. (2018). Web Scraping. Editorial UOC.
+2. Masip, D. El lenguaje Python. Editorial UOC.
+2. Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.
+4. Simon Munzert, Christian Rubba, Peter Meißner, Dominic Nyhuis. (2015). Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining. John Wiley & Sons.
