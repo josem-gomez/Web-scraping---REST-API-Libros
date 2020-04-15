@@ -11,7 +11,7 @@ La actividad ha sido realizada de manera individual por Jose Manuel Gómez Lópe
 ## Ficheros del código fuente
 
 * **ListaLibros/spiders/libros.py**: punto de entrada al programa. Inicia el proceso de scraping.
-* **ListaLibros**: cDirectorio con ficheros de configuración de Scrapy
+* **ListaLibros**: Directorio con ficheros de configuración de Scrapy
 * **ListaLibros/spiders/ejemplo_output.txt**: Ejemplo de salida del scraper
 ## Recursos
 
