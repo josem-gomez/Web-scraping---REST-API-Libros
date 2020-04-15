@@ -1,0 +1,45 @@
+# Práctica 1: Web scraping
+
+## Descripción
+Esta práctica se ha realizado bajo el contexto de la asignatura Tipología y ciclo de vida de los datos, perteneciente al Máster en Ciencia de Datos de la Universitat Oberta de Catalunya. En ella, se aplican técnicas de web scraping mediante el lenguaje de programación Python para extraer así datos de la web QueLibroLeo para obtener información de un listado de libros recomendados y sus características, para luego usar la REST API de Google Books, cruzar los datos y añadir información adicional para el dataset final.
+
+Para el web scraping, ya que en anteriores ocasiones había usado la librería BeautifulSoap, he utilizado la librería Scrapy de Python en conjunción con xpaths. Se obtiene un listado de libros recomendados para su lectura con los atributos Nombre, Género, Editorial, Año, ISBN e Idioma. A continuación se hace uso de la REST API de Google Books. La autenticación se realiza con un API key y se realizan busquedas basadas en los ISBNs de los libros ya capturados en la web QueLibroLeo. Desde Google Books obtenemos el número de páginas del libro y la valoración media de los usuarios (ambas cuando estan disponibles) y se añade al dataset creado desde el scraping.
+
+El motivo de la elección del sitio web es el interes por la literatura. Dicha web proporcina recomendaciones de lectura muy interesantes, pero desafortunadamente la usabilidad y el rendimiento de la web no es la deseada. Es por eso que he pensado en crear un dataset con dicha información , y además he querido complemnentarla con información adicional haciendo uso de otro método de adquisición de datos (API).
+
+La web no tiene ningún tipo de restricción para hacer scraping. Adjunto el contendi del fichero robos.txt: https://quelibroleo.hola.com/robots.txt
+
+User-agent: *
+Allow:
+
+
+## Dataset
+
+El Dataset esta formado por los siguientes campos:
+
+Nombre del libro, Género, Editorial, Año, ISBN, Idioma, N´mero de páginas (obtenido desde Google Books) y Average Rating (obtenido desde Google Books)
+
+Se puede ver una imagen de un extracto del dataset aquí:
+
+https://github.com/josem-gomez/Web-scraping---REST-API-Libros/blob/master/Imagen_Dataset.png
+
+Y se puede acceder al dataset desde el repositorio de Github o desde el enlace de Zenodo:
+
+https://zenodo.org/api/files/a4eb9576-c436-4cd4-b66b-a8f2eb7670e4/dataset_libros.csv
+
+
+## Miembros del equipo
+La actividad ha sido realizada de manera individual por Jose Manuel Gómez López.
+
+## Ficheros incluidos
+
+* **/Descripción_del_Proyecto.txt**: Archivo con expliaciónm del contexto de la recogida de datos y del dataset
+* **ListaLibros/spiders/libros.py**: punto de entrada al programa. Inicia el proceso de scraping.
+* **ListaLibros**: Directorio con ficheros de configuración de Scrapy
+* **ListaLibros/spiders/ejemplo_output.txt**: Ejemplo de salida del scraper
+## Recursos
+
+1. Subirats, L., Calvo, M. (2018). Web Scraping. Editorial UOC.
+2. Masip, D. El lenguaje Python. Editorial UOC.
+2. Lawson, R. (2015). Web Scraping with Python. Packt Publishing Ltd. Chapter 2. Scraping the Data.
+4. Simon Munzert, Christian Rubba, Peter Meißner, Dominic Nyhuis. (2015). Automated Data Collection with R: A Practical Guide to Web Scraping and Text Mining. John Wiley & Sons.
