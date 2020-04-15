@@ -8,8 +8,9 @@ Para el web scraping, ya que en anteriores ocasiones había usado la librería B
 ## Miembros del equipo
 La actividad ha sido realizada de manera individual por Jose Manuel Gómez López.
 
-## Ficheros del código fuente
+## Ficheros incluidos
 
+* ** /Descripción_del_Proyecto ** Archivo con expliaciónm del contexto de la recogida de datos y del dataset
 * **ListaLibros/spiders/libros.py**: punto de entrada al programa. Inicia el proceso de scraping.
 * **ListaLibros**: Directorio con ficheros de configuración de Scrapy
 * **ListaLibros/spiders/ejemplo_output.txt**: Ejemplo de salida del scraper
