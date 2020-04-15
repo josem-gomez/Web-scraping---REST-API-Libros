@@ -10,7 +10,7 @@ La actividad ha sido realizada de manera individual por Jose Manuel Gómez Lópe
 
 ## Ficheros incluidos
 
-* ** /Descripción_del_Proyecto ** Archivo con expliaciónm del contexto de la recogida de datos y del dataset
+* **/Descripción_del_Proyecto.txt**: Archivo con expliaciónm del contexto de la recogida de datos y del dataset
 * **ListaLibros/spiders/libros.py**: punto de entrada al programa. Inicia el proceso de scraping.
 * **ListaLibros**: Directorio con ficheros de configuración de Scrapy
 * **ListaLibros/spiders/ejemplo_output.txt**: Ejemplo de salida del scraper
